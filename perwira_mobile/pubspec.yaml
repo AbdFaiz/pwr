@@ -1,0 +1,42 @@
+name: perwira_mobile
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP Client
+  dio: ^5.4.3+1
+  # State Management
+  provider: ^6.1.1
+  # Storage
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  # Image Picker
+  image_picker: ^1.0.4
+  # UI
+  fluentui_system_icons: ^1.1.273
+  font_awesome_flutter: ^10.12.0
+  cupertino_icons: ^1.0.2
+  confetti: ^0.7.0
+  shimmer: ^2.0.0
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
+    - assets/products/
